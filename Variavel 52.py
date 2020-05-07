@@ -1,0 +1,11 @@
+#Não consigo entender essa poha
+premio = float(input("Valor do prêmio: "))
+ap1 = float(input(f"Valor 1ª aposta (no máximo {premio}): "))
+ap2 = float(input(f"Valor 2ª aposta (no máximo {premio}): "))
+ap3 = float(input(f"Valor 3ª aposta (no máximo {premio}): "))
+pap1 = (ap1)/(ap1+ap2+ap3)
+pap2 = (ap2)/(ap1+ap2+ap3)
+pap3 = (ap3)/(ap1+ap2+ap3)
+print("O 1º ganharia {:.2f}".format(pap1*premio))
+print("O 2º ganharia {:.2f}".format(pap2*premio))
+print("O 3º ganharia {:4.2f}".format(pap3*premio))

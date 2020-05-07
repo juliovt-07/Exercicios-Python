@@ -1,0 +1,5 @@
+m1 = float(input("Nota 1: "))
+m2 = float(input("Nota 2: "))
+m3 = float(input("Nota 3: "))
+m4 = float(input("Nota 4: "))
+print((m1+m2+m3+m4)/4)
